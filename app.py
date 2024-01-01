@@ -4,7 +4,7 @@ import os
 import mysql.connector
 app = Flask(__name__)
 CORS(app)  # Permite solicitudes CORS
-port = int(os.environ.get('PORT', 5000))
+port = int(os.environ.get('PORT', 9000))
 
 config = {
     'user': 'db_sopes',
