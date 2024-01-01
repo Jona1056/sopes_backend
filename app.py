@@ -9,9 +9,9 @@ port = int(os.environ.get('PORT', 5000))
 config = {
     'user': 'db_sopes',
     'password': 'servidor123',
-    'host': '192.168.49.2',
+    'host': '4.157.193.45',
     'database': 'sopes_jonatan',
-    'port': 30183,
+    'port': 80,
 }
 
 @app.route('/', methods=['POST'])
